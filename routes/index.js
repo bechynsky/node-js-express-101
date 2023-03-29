@@ -5,7 +5,7 @@ var dbpwd = process.env.DB_PASSWORD;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', databasepassword: dbpwd });
+  res.render('index', { title: 'JSDays', databasepassword: dbpwd });
 });
 
 module.exports = router;
